@@ -27,6 +27,10 @@ public class CustomerQueue {
          return customerQueue.peek();
     }
     public void printElements(){
+        if(customerQueue.isEmpty()){
+            System.out.println("Queue is empty");
+            return;
+        }
         for(Customer customer: customerQueue){
             System.out.println(customer);
         }
