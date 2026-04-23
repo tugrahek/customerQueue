@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 
 public class CustomerQueue {
-    LinkedList<Customer> customerQueue;
+    private LinkedList<Customer> customerQueue;
 
     public CustomerQueue() {
         this.customerQueue = new LinkedList<>();
